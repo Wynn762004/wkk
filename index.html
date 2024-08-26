@@ -3,28 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="rupeereegu.css">
+    <title>Coffee Bear</title>
+    <link rel="stylesheet" href="css.css">
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 </head>
 <body>
-    <form>
-    <div class="Dernyoungsay">
-    <h3>แปลงค่าเงินรูปีเป็นเงินบาทไทย</h3> <p></p>
-    <input type="text" id="number1" placeholder="ใส่ค่าเงินรูปี"><br/>
-    <h1>--------------</h1>
-    <div class="ddd">
-    <input type="button" value="แปลงค่า" onclick="rupeereepu()"><p></p>
-    <button data-all-clear>clear all</button>
-    </div>
-    <h1>--------------</h1>
-    <h5>เงินบาทไทย</h5>
-    <h6>--------------</h6>
-    <div id="result">xxx</div>บาท
-    <h1>--------------</h1>
-    <h6>ข้อมูล ณ วันที่ 12/6/2567 </h6>
-    </div>
-    </form>
+    
+    <header>
+        <a href="#" class="logo"><img src="https://www.pngall.com/wp-content/uploads/8/Restaurant-Logo-PNG-Clipart.png" alt=""></a>
+        <div class="bx bx-menu" id="menu-icon"></div>
+        
+        <ul class="navbar">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#shop">Shop</a></li>
+            <li><a href="#delivery">Delivery</a></li>
+            <li><a href="#app">App</a></li>
+            <li><a href="#contact">Contact</a></li>
 
+        </ul>
+    </header>
+    <section class="home" id="home">
+        <div class="home-text">
+            <span>Welcome To</span>
+            <h1>เจ๊ตับ ตามสั่ง</h1>
+            <h2>Eat Free<br>No Money</h2>
+            <a href="#" class="btn">Join Now</a>
+        </div>
+        <div class="home-img">
+            <img src="https://www.anyaplace.com/photo/thaifood/124.png" alt="">
+        </div>
+    </section>
+    <section class="shop" id="shop">
+        <div class="heading">
+            <span>Shop Now</span>
+            <h1>Shop Kapaw</h1>
+        </div>
+        <div class="shop-container">
+            <div class="box">
+                <div class="box-img">
+                    <img src="https://png.pngtree.com/png-vector/20240123/ourmid/pngtree-fried-egg-with-stir-fried-minced-pork-and-basil-isolated-png-image_11469609.png" alt="">
+                </div>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                </div>
+                <h2>กระเพราเผ็ดมาก</h2>
+                <span>$ 12.4</span>
+                <a href="" class="btn">Order Now!</a>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="https://png.pngtree.com/png-vector/20240624/ourmid/pngtree-fried-rice-with-basil-minced-pork-and-egg-thai-food-transparent-png-image_12841981.png" alt="">
+                </div>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <h2>กระเพราเผ็ดกลาง</h2>
+                <span>$ 12.4</span>
+                <a href="" class="btn">Order Now!</a>
+            </div>
+
+            <div class="box">
+                <div class="box-img">
+                    <img src="https://png.pngtree.com/png-vector/20240123/ourmid/pngtree-fried-egg-with-stir-fried-minced-pork-and-basil-isolated-png-image_11469607.png" alt="">
+                </div>
+                <div class="stars">
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star'></i>
+                    <i class='bx bxs-star-half' ></i>
+                </div>
+                <h2>กระเพราเผ็ดน้อย</h2>
+                <span>$ 12.4</span>
+                <a href="" class="btn">Order Now!</a>
+            </div>
+        </div>
+    </section>
+    <!--Delivery-->
+    <section class="delivery" id="delivery">
+        <div class="heading">
+            <span>Get  Now</span>
+            <h1>Order with Grab Food</h1>
+        </div>
+        <div class="container">
+            <div class="delivery-img">
+                <img src="img/grabfood.jpg" alt="">
+            </div>
+            <div class="delivery-text">
+                <h2>Today deserve delivery</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quasi maxime officia. Provident consequuntur dicta nostrum eum enim corrupti repudiandae.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quasi maxime officia. Provident consequuntur dicta nostrum eum enim corrupti repudiandae.</p>
+                <a href="#" class="btn">Order Now</a>
+            </div>
+        </div>
+    </section>
+    <!--app-->
+    <section class="app" id="app">
+        <div class="heading">
+            <span>Our App</span>
+            <h1>Download App</h1>
+        </div>
+        <div class="container">
+            <div class="app-text">
+                <h2>Today deserve delivery</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quasi maxime officia. Provident consequuntur dicta nostrum eum enim corrupti repudiandae.</p>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis quasi maxime officia. Provident consequuntur dicta nostrum eum enim corrupti repudiandae.</p>
+                <a href="#" class="btn">Get App</a>
+            </div>
+            <div class="app-img">
+                <img src="img/app1.png" alt="">
+            </div>
+        </div>
+    </section>
+    <!--Contact-->
+    <section class="contact" id="contact">
+        <div class="social">
+            <a href="#"><i class='bx bxl-facebook'></i></a>
+            <a href="#"><i class='bx bxl-instagram'></i></a>
+            <a href="#"><i class='bx bxl-tiktok'></i></a>
+            <a href="#"><i class='bx bxl-youtube'></i></a>
+        </div>
+        <div class="links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Term of Use</a>
+            <a href="#">Our Company</a>
+        </div>
+        <p>&#169; CarpoolVenom All Right Reserved.</p>
+    </section>
+<script src="res.js"></script>
 </body>
-<script src="rupeereegu.js"></script>
 </html>
